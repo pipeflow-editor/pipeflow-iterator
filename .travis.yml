@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- '0.12'
+- '0.11'
+deploy:
+  provider: npm
+  email: golchin@outlook.com
+  api_key:
+    secure: UjvBztqT38QuhyH+2joR21ZG9uU0jgRwWHo6jNiyG4PJbGIRT9cniXAfcKG/m/JomGVQexnfgkgDbL3VoptJ7QCAB/yeT3vq+4DzDIwa9rfvk05pp/p/2mz7MLAmH0e9HToDCYxTzHRAsgh6Cq5+XnarIp2o/NfUM3W2rxdKNClG7/WJmcUp6BXe7dAoKTtkWPK78nH/rAZR/6RSOCDilSJPZICpUuii5LAsuMsjXPz+cErw6xBaTLVj9gQjadVRSSryav6o6iHu6IKHnKK09y+VKH3PMJBdeLwhIcwjXM/+JhurE8lMT+zqiJwqmh5aKnliXurEen0vlB8QP1Bqv9hFOUoqTRoHozrUpu9VNUH4JbtS8Cbd67LQCn/SHpKi5As1VnsMS1EZxhF3znLvpgIP7WRix2OWwV3/UAOx2tV11bszt+94k2xYHglqZ/fDAxCD0dyFPFXdzv+kh4TdifUC2DNpFNlidHx2kdE8xgNQkTYcbJ5/xMIfQEkeIj5r77y5KOAzg0ToYDljbs+A4CrVPVXxEmwHGzIsZgW9bJgwhbei9jHYtdx2s3WPNK56t+OKYLiEahMhlvRwMagz4Pur/An7M7VDA0Tar8RqwEGSoIe90zgYYGT7ogp4dJ7IIiYpuHt4AhsGdblNawM4VS6M/BwpV/hviORawvGm764=
+  on:
+    tags: true
+    repo: pipeflow/pipeflow-iterator
+    node: '0.12'

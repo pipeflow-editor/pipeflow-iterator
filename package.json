@@ -1,0 +1,27 @@
+{
+  "name": "pipeflow-iterator",
+  "version": "0.1.0",
+  "description": "Iterator middleware for Pipeflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/pipeflow/pipeflow-iterator.git"
+  },
+  "author": "Mehdi Golchin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pipeflow/pipeflow-iterator/issues"
+  },
+  "homepage": "https://github.com/pipeflow/pipeflow-iterator#readme",
+  "dependencies": {
+    "pipeflow": "^0.3.1",
+    "pipeflow-stream": "^0.1.2"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.3.0"
+  }
+}
