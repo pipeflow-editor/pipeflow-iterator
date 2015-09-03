@@ -1,5 +1,7 @@
 **Note** Pipeflow is not ready for production purpose yet.
 
+[![Build Status](https://travis-ci.org/pipeflow/pipeflow-iterator.svg?branch=master)](https://travis-ci.org/pipeflow/pipeflow-iterator)
+
 # Pipeflow iterator
 Iterator plugin for Pipeflow
 
